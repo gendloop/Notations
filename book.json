@@ -134,8 +134,8 @@
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "donate": {
-            "wechat": "https://github.com/gendloop/Notations/blob/main/assets/images/wechat.png",
-            "alipay": "https://github.com/gendloop/Notations/blob/main/assets/images/alipay.png",
+            "wechat": "../assets/images/wechat.png",
+            "alipay": "../assets/images/alipay.png",
             "title": "鼓励一下",
             "button": "赞赏",
             "alipayText": "支付宝打赏",
