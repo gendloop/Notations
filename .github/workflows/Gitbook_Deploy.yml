@@ -16,15 +16,26 @@ jobs:
         with:
           node-version: "22.9.0"
       - name: Cache NPM dependencies
+        id: cache-npm
         uses: actions/cache@v4
         with:
           path: node_modules
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
+      - name: Cache Gitbook
+        id: cache-gitbook
+        uses: actions/cache@v4
+        with:
+          path: ~/.gitbook
+          key: ${{ runner.OS }}-gitbook-cache
+          restore-keys: |
+            ${{ runner.OS }}-gitbook-cache
       - name: Install dependencies
+        if: steps.cache-npm.outputs.cache-hit != 'true'
         run: npm install
       - name: Fix file error
+        if: steps.cache-npm.outputs.cache-hit != 'true'
         run: sed -i '62,64 s/^/\/\/ /' ./node_modules/npm/node_modules/graceful-fs/polyfills.js
       - name: Build
         run: npm run build
