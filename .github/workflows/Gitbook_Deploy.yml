@@ -1,9 +1,9 @@
 name: Gitbook_Deploy
 
 on:
-  # push:
-    # branches:
-      # - main # default branch
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
