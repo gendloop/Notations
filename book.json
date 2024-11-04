@@ -142,7 +142,7 @@
             "wechatText": "微信打赏"
         },
         "sitemap-general": {
-            "prefix": "https://gendloop.github.io/Notations"
+            "prefix": "https://gendloop.github.io/Notations/"
         },
         "favicon": {
             "shortcut": "assets/images/favicon.ico",
