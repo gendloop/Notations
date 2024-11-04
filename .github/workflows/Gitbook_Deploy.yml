@@ -15,10 +15,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22.9.0"
-      - name: Install dependencies
-        run: npm install
-      - name: Fix file error
-        run: sed -i '62,64 s/^/\/\/ /' ./node_modules/npm/node_modules/graceful-fs/polyfills.js
       - name: Cache NPM dependencies
         uses: actions/cache@v4
         with:
@@ -26,6 +22,10 @@ jobs:
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
+      - name: Install dependencies
+        run: npm install
+      - name: Fix file error
+        run: sed -i '62,64 s/^/\/\/ /' ./node_modules/npm/node_modules/graceful-fs/polyfills.js
       - name: Build
         run: npm run build
       - name: Upload pages artifact
