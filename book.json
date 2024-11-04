@@ -142,7 +142,7 @@
             "wechatText": "微信打赏"
         },
         "sitemap-general": {
-            "prefix": "http://gitbook.example.com"
+            "prefix": "https://gendloop.github.io/Notations"
         },
         "favicon": {
             "shortcut": "assets/images/favicon.ico",
@@ -166,7 +166,7 @@
             "description": "简谱",
             "author": "gendloop",
             "feed_url": "https://gendloop.github.io/Notations/rss",
-            "site_url": "https://github.com/gendloop/Notations",
+            "site_url": "https://gendloop.github.io/Notations",
             "managingEditor": "gendloop@163.com",
             "webMaster": "gendloop@163.com",
             "categories": [
