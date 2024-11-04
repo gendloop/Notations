@@ -58,6 +58,28 @@
             "branch": "main",
             "is_private": true,
             "token": ""
+        },
+        {
+            "files": [
+                "Gitbook/package.json"
+            ],
+            "local_dir": "..",
+            "user": "gendloop",
+            "repo": "Tools",
+            "branch": "main",
+            "is_private": true,
+            "token": ""
+        },
+        {
+            "files": [
+                "Gitbook/Gitbook_Deploy.yml"
+            ],
+            "local_dir": "../.github/workflows",
+            "user": "gendloop",
+            "repo": "Tools",
+            "branch": "main",
+            "is_private": true,
+            "token": ""
         }
     ]
 }
