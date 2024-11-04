@@ -42,9 +42,7 @@ jobs:
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: |
-            ./_book
-            ./assets
+          path: ./_book,./assets
   deploy:
     needs: build
     permissions:
