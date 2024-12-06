@@ -148,8 +148,8 @@
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "donate": {
-            "wechat": "/assets/images/wechat.png",
-            "alipay": "/assets/images/alipay.png",
+            "wechat": "/Notations/assets/images/wechat.png",
+            "alipay": "/Notations/assets/images/alipay.png",
             "title": "鼓励一下",
             "button": "赞赏",
             "alipayText": "支付宝打赏",
