@@ -12,7 +12,7 @@
     "gitbook-plugin-ace": "^0.3.2",
     "gitbook-plugin-advanced-emoji": "^0.2.2",
     "gitbook-plugin-alerts": "^0.2.0",
-    "gitbook-plugin-anchor-navigation-ex": "^1.0.14",
+    "gitbook-plugin-anchor-navigation-ex": "^0.1.8",
     "gitbook-plugin-anchors": "^0.7.1",
     "gitbook-plugin-chart": "^0.2.0",
     "gitbook-plugin-code": "^0.1.0",
